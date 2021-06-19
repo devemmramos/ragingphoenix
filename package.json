@@ -1,0 +1,27 @@
+{
+  "name": "raging-phoenix",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "autoprefixer": "^10.2.6",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "particles.vue": "^2.12.0",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "fibers": "^5.0.0",
+    "postcss": "^8.2.8",
+    "sass": "^1.35.1",
+    "sass-loader": "^10.2.0"
+  }
+}
